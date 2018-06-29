@@ -1,0 +1,22 @@
+{
+    "name": "garyclarke/laravel-preset",
+    "description": "This is a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gary Clarke",
+            "email": "garyclarke1974@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Laracasts\\LaravelPreset": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Laracasts\\LaravelPreset\\LaracastsServiceProvider"]
+        }
+    }
+}
