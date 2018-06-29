@@ -13,10 +13,5 @@
         "psr-4": {
             "Laracasts\\LaravelPreset\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": ["Laracasts\\LaravelPreset\\LaracastsServiceProvider"]
-        }
     }
 }
